@@ -4,10 +4,10 @@ The purpose of the analysis is to how the bank runs a marketing campaign to brin
 ## Data Analysis Report
 
 ### Data Overview
-Number of rows: 41188
-Number of columns: 21
-Featues: Age, Duration, Campaign, Pdays, Previous, Emp.var.rate, Cons.price.idx, Cons.conf.idx, Euribor3m, Nr.employed, Job, Martial, Education, Default, Housing, Loan, Contact, Month, Day_of_week, Poutcome, y(Target.))
-Target Variable : y(Bank Term Deposit Subrcription).
+- Number of rows: 41188
+- Number of columns: 21
+- Featues: Age, Duration, Campaign, Pdays, Previous, Emp.var.rate, Cons.price.idx, Cons.conf.idx, Euribor3m, Nr.employed, Job, Martial, Education, Default, Housing, Loan, Contact, Month, Day_of_week, Poutcome, y(Target.))
+- Target Variable : y(Bank Term Deposit Subrcription).
 ### Data Preprocessing and feature engineering
 - Handling Missing Values : The dataset contains no missing values, ensuring data completeness and consistenc.
 - Handling categorical data : For the categorical features like Job, Marital, Education, Default, Housing, Loan, Contact, Month, Day_of_week, Poutcome, and y (Target) in the Portuguese bank data, a combination of one-hot encoding and label encoding was applied based on real-world hierarchies and domain understanding. One-hot encoding was used for features without inherent order, such as Job, Martial, Contact, Month, Day_of_week, Poutcome. Meanwhile, label encoding was applied to ordinal features like Education and Default, Housing and Loan, reflecting their natural ranking to improve model interpretability and performance. And for target variable(y) manual encoding was done. This balanced approach captures both nominal and ordinal relationships effectively
