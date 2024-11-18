@@ -6,7 +6,7 @@ The purpose of the analysis is to how the bank runs a marketing campaign to brin
 ### Data Overview
 - Number of rows: 41188
 - Number of columns: 21
-- Featues: Age, Duration, Campaign, Pdays, Previous, Emp.var.rate, Cons.price.idx, Cons.conf.idx, Euribor3m, Nr.employed, Job, Martial, Education, Default, Housing, Loan, Contact, Month, Day_of_week, Poutcome, y(Target.))
+- Featues: Age, Duration, Campaign, Pdays, Previous, Emp.var.rate, Cons.price.idx, Cons.conf.idx, Euribor3m, Nr.employed, Job, Martial, Education, Default, Housing, Loan, Contact, Month, Day_of_week, Poutcome, y(Target.)
 - Target Variable : y(Bank Term Deposit Subrcription).
 ### Data Preprocessing and feature engineering
 - Handling Missing Values : The dataset contains no missing values, ensuring data completeness and consistenc.
